@@ -1,16 +1,56 @@
+body {
+  padding: 50px; 
+  padding-color: #EFF6FF;
+}
+
+
+
+.container {
+  display: flex; /* включаем флекс-верстку */
+  float: left; /* прижимаем картинку влево */
+  margin-right: 50px; /* отступ справа от картинки */
+  margin-left: 50px;
+  margin-top: 50px;
+  align-items: left; /* выравнивание по вертикали по центру */
+  }
+
 .button {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff; 
+  padding: 20px;
+  background-color: #255A9B; 
   color:white;             
   text-decoration: none;      
   font-weight: bold;
   text-align: center;
 }
-
+.buttons-container {
+  display: flex;
+  gap: 100px; /* Расстояние между кнопками */
+}
 
 .button:hover {
-  background-color: #blue;
+  background-color: blue;
 }
-.container {
-    display: flex; 
+
+.logo {
+  position: absolute; /* Включаем абсолютное позиционирование */
+  top: 15px;          /* Отступ сверху (или bottom: 15px снизу) */
+  right: 15px;        /* Отступ справа (или left: 15px слева) */
+  width: 50px;        /* Желаемый размер логотипа */
+  height: auto;       /* Сохранение пропорций */
+}
+
+css
+.radio-group {
+  display: flex;
+  flex-direction: row; /* расположение в ряд (значение по умолчанию) */
+  gap: 15px;           /* расстояние между элементами */
+  align-items: center; /* вертикальное выравнивание */
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* расстояние между точкой radio и текстом */
+  cursor: pointer;
+}

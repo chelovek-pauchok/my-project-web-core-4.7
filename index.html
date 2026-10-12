@@ -6,31 +6,77 @@
     <title>Task</title>
     <link rel="stylesheet"href="./index.css"
 </head>
-<body>
-    <aside>
+<body>    
         <div class="container"> 
         <img alt="bg.jpg" data-hpc="true" containertiming="hpc" 
-        src="https://github.com/Habsida-Projects/css-task/blob/main/img/bg.jpg?raw=true" style="max-width: 100%;">
+        src="https://github.com/Habsida-Projects/css-task/blob/main/img/bg.jpg?raw=true" 
+        style="max-width:100%;">
+        <img src="logo.svg" alt="Логотип" class="logo"> 
+        <img src="./img.Linkedln.svg" alt="Иконка" width="20" height="20">
+  <span>iintoo invest together</span> 
         </div>
-    </aside>
-    <header> 
         <div>
         <h1>Get iintoo it today</h1>
             <br><br>
             <p>There is no charge or obligation upon registration</p>
         </div>
-        <div>
-            <form action="https://facebook.com"method="GET">
-                <label for="search"><a href="https://facebook.com" class="button">Register with Facebook</a> </label>
-            </form>
-            <br><br>
-            <form action="https://linkedln.com"method="GET">
-                <label for="search"><a href="https://linkedln.com" class="button">Register with Linkedln</a></label>
-            </form>
+
+        <div class="buttons-container">
+            <a href="https://facebook.com" target="_blank" class="button">
+  <img src="./img.facebook.svg" alt="Иконка" width="20" height="20">
+  <span>Register with Facebook</span>
+            </a>
+            
+            <a href="https://Linkedln.com" target="_blank" class="button">
+  <img src="./img.Linkedln.svg" alt="Иконка" width="20" height="20">
+  <span>Register with Linkedln</span> 
+            </a>        
         </div>
+
+    <h3>---------OR---------</h3>  
+    <form action="" method="GET">
+        <label for="search"></label>
+        <input type="e-mail" id="search" name="q" placeholder="E-mail" required>
+        <label for="search"></label>
+        <input type="phone" id="search" name="q" placeholder "number" required>
+    </form>
+    <br><br><br><br>
+  <h2>What type of investor are you?</h2>
+<form>
+  <p>Select the type of investor you are below.</p>
+  
+  <div>
+    <input type="radio" id="variant1" name="choice" value="first" checked>
+    <label for="variant1">Individual</label>
+  </div>
+
+  <div>
+    <input type="radio" id="variant2" name="choice" value="second">
+    <label for="variant2">Business</label>
+  </div>
+
+  <div>
+    <input type="radio" id="variant3" name="choice" value="third">
+    <label for="variant3">IRA</label>
+  </div>
+
+  <div>
+    <input type="radio" id="variant4" name="choice" value="forth">
+    <label for="variant3">Trust</label>
+  </div>
+</form>
+    
+
+    
+        
+        
+            
+           
+   
+        
                          
                 
             
-    </header>
+    
 </body>
 </html>
